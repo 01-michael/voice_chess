@@ -260,8 +260,8 @@ public class Board extends JPanel implements MouseListener {
     	String[] coordinates = speechReceived.split(" ");
         if(coordinates.length == 1) {
             // rarely passes in single word that is not unk, should only be passing in two words, prevents
-        	// out of bounds error by accessing coordinates[1] below
-        	System.out.println("I did not understand what you said");
+            // out of bounds error by accessing coordinates[1] below
+            System.out.println("I did not understand what you said");
             return;
         }
 
