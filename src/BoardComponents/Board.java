@@ -253,7 +253,7 @@ public class Board extends JPanel implements MouseListener {
 
         // <unk> means recognizer did not understand speech
     	if(speechReceived.equals("<unk>")) {
-    		System.out.println("I did not understand what you said"); 
+            System.out.println("I did not understand what you said"); 
             return;
     	}
 
