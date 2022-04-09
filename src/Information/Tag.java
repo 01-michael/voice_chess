@@ -2,8 +2,8 @@ package Information;
 
 
 public class Tag {
-    // keeps track current active side during game session
-    // and keeps track of piece/player side
+    // 1. keeps track current active side during game session
+    // 2. keeps track of piece/player side
     public static enum Side { BLACK, WHITE, OVER }
 
     // size of image assets
